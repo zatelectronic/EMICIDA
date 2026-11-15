@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "EMICIDA · placa de arte com 6 LEDs")
+		(title "EMICIDA")
 		(date "2026-11-12")
 		(rev "R01")
 		(company "ZAT ELECTRONIC")
@@ -179,6 +179,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/be8e3b6d-244d-49f4-8438-9e5c98abb1fc")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -381,6 +387,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/d30d96a3-08ca-4034-8015-fcebdf1dbf50")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -584,6 +596,12 @@
 		(path "/3f29b0fd-30a2-520a-b70d-527d8c25b94c/9925a6c6-175e-4482-9d49-e56fee0b09ea")
 		(sheetname "/CONN/")
 		(sheetfile "CONN.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -675,7 +693,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "f8a466e7-de5b-4ef1-9652-c529498d7f44")
 		)
@@ -686,7 +704,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED1")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "0f47e5bd-24ba-4427-af9e-33433bc41b36")
 		)
@@ -697,7 +715,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED2")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "29d15c5e-3d18-4b1d-aa40-650276841541")
 		)
@@ -708,7 +726,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED3")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "59db0a47-d623-47aa-8955-4ceacaad035e")
 		)
@@ -719,7 +737,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED4")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "51f667b7-a4e1-45ed-8cde-6fc53416ee81")
 		)
@@ -730,7 +748,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED5")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "c5a20a5c-cd34-4a4f-99ed-3f83e7eb6000")
 		)
@@ -741,7 +759,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED6")
-			(pinfunction "Pin_7")
+			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "59ab32a5-dce0-4a71-ab24-948f16aae8a8")
 		)
@@ -841,6 +859,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/7bf72b7c-1b53-4b41-9060-a485c37a6bd9")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1057,6 +1081,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/62612535-2376-4172-9f22-575a1d04bb18")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1169,7 +1199,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "562b9ab2-70fb-4aaa-ac81-468626007914")
 		)
@@ -1180,7 +1210,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D1-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "101eaa51-7af4-42d1-917f-2edde5940027")
 		)
@@ -1280,6 +1310,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/e7a664f2-b315-43a1-9976-184eeb942c5f")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1496,6 +1532,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/dd3c653a-60d3-4e00-b3f9-0a59b13d55cc")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1608,7 +1650,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "c026004d-db00-4c4d-9e38-c90166d12501")
 		)
@@ -1619,7 +1661,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2e220231-6274-41da-b1d6-4ac856cdd48a")
 		)
@@ -5863,6 +5905,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/924a0071-345a-4971-bec6-2c3ae695c859")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5975,7 +6023,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "9e6dbf71-0603-4d48-97d8-f93192db471e")
 		)
@@ -5986,7 +6034,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D5-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d056bb14-a586-487d-9123-4940db506f6b")
 		)
@@ -6086,6 +6134,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/6f660941-4868-4b1e-9110-b010d91864a6")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6288,6 +6342,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/2c5cb65f-a312-45f5-a518-217d7b9686bb")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6504,6 +6564,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/15fa3b30-4151-437c-a7c9-d204abcbafe0")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6616,7 +6682,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "0ec1f26a-db99-4c38-ab3b-00695efa8e51")
 		)
@@ -6627,7 +6693,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D3-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d7568ac5-44d7-4df8-b0dc-729492704d24")
 		)
@@ -6741,6 +6807,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/a95c7b3c-1374-4c1b-8976-fdc81b1f772d")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6853,7 +6925,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "b193bde2-c09a-431b-bd07-2c1b80f39431")
 		)
@@ -6864,7 +6936,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D6-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "548c6c8f-0571-4c43-b06f-59a04614f6bc")
 		)
@@ -6978,6 +7050,12 @@
 		(path "/1c0fb86e-0a6b-5298-852f-7cdd8d71325b/eea3b4e4-8887-4286-80ab-06e65da834e3")
 		(sheetname "/LEDS/")
 		(sheetfile "LEDS.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7090,7 +7168,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "089ac348-365d-49c3-81cb-03a1a40a8cd9")
 		)
@@ -7101,7 +7179,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D4-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "810400b8-dc57-4994-ad90-04955bfd936b")
 		)
@@ -7481,7 +7559,8 @@
 	(zone
 		(net "GND")
 		(layers "F.Cu" "B.Cu")
-		(uuid "2d0cd359-ed4b-4f97-a247-3b1e031bd824")
+		(uuid "b5a47d5d-94dc-4688-87c7-1a6d458d4d29")
+		(name "GND")
 		(hatch none 0.5)
 		(connect_pads yes
 			(clearance 0.5)
@@ -7494,7 +7573,7 @@
 		)
 		(polygon
 			(pts
-				(xy 93.34 36.11) (xy 92.69 138.75) (xy 196.45 139.29) (xy 196.87 36.71)
+				(xy 94.351 37.609) (xy 94.352 137.611) (xy 194.352 137.611) (xy 194.348 37.611)
 			)
 		)
 		(filled_polygon
